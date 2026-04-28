@@ -1,138 +1,139 @@
-# Welcome to Nylas Code Samples!
+<img src="./logo.png" width="96" alt="Nylas"/>
 
-Find code snippets for Nylas authentication, scheduling, email, calendar, and more.
+# Nylas code samples
 
-Other places to learn:
+**Open-source examples for the Nylas APIs.**
+Snippets and reference apps across every official SDK — Email, Calendar,
+Contacts, Scheduler, Notetaker, and Webhooks.
 
-- [Nylas documentation](https://developer.nylas.com): API references, developer guides, and more.
-- [Nylas blog](https://www.nylas.com/blog/): We post new developer content 1–2 times a week here.
-- [Nylas YouTube channel](https://www.youtube.com/c/nylas): "Coding with Nylas", "Nylas On-Demand", and more. New content weekly.
-- [Nylas Postman Collection](https://www.postman.com/trynylas/workspace/nylas-api/overview): Start building with Nylas using your Postman collection!
+[Sign up](https://dashboard-v3.nylas.com/register) ·
+[Docs](https://developer.nylas.com) ·
+[CLI docs](https://cli.nylas.com) ·
+[Main org](https://github.com/nylas) ·
+[Forum](https://forums.nylas.com) ·
+[Blog](https://nylas.com/blog)
 
-_If you're interested in building for Nylas, [come join us](https://ats.comparably.com/api/v1/gh/nylas)._
+## Get started
 
-## Hacktoberfest 2023
-Get started with Hacktoberfest: [nylas-hacktoberfest-2023](https://github.com/nylas-samples/nylas-hacktoberfest-2023).
+[Sign up](https://dashboard-v3.nylas.com/register) to create an app and generate an API key. Or do it from the terminal:
 
-# Samples list
+```bash
+brew install nylas/nylas-cli/nylas
+nylas init
+```
 
-## Starter Repos
-- [nylas-code-samples-starter](https://github.com/nylas-samples/nylas-code-samples-starter): Use this as a template when creating code samples.
+Then pick a quickstart for your stack — see below.
 
-## Auth samples
+## Quickstarts — pick your stack
 
-- [python-account-tokeninfo](https://github.com/nylas-samples/python-account-tokeninfo): Get information about your auth tokens!
+Per-product quickstart guides, available across every official SDK.
 
-## Email API samples
+**Products:**
+[Email](https://github.com/orgs/nylas-samples/repositories?q=quickstart+email) ·
+[Calendar](https://github.com/orgs/nylas-samples/repositories?q=quickstart+calendar) ·
+[Contacts](https://github.com/orgs/nylas-samples/repositories?q=quickstart+contacts) ·
+[Scheduler](https://github.com/orgs/nylas-samples/repositories?q=quickstart+scheduler) ·
+[Webhooks](https://github.com/orgs/nylas-samples/repositories?q=quickstart+webhook)
 
-**Node.js SDK**
-- [node-starter-repo](https://github.com/nylas-samples/node-starter-repo): Start building with the Nylas Node.js SDK!
-- [node-email-send](https://github.com/nylas-samples/node-email-send): Send an email with Nylas the Node.js SDK!
-- [node-email-read](https://github.com/nylas-samples/node-email-read): Read your email with Nylas the Node.js SDK!
-- [node-email-delete](https://github.com/nylas-samples/node-delete-email): Delete an email with the Nylas Node.js SDK!
-- [node-email-create-draft](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/email/node/create-draft): Create an draft with the Nylas Node.js SDK!
-- [node-track-email-open-rates](https://github.com/nylas-samples/node-track-email-open-rates): Check if the email has been opened with the Nylas Node.js SDK
-- [node-mail-merge-react-templates](https://github.com/nylas-samples/node-mail-merge-react-templates): How to Mail Merge using React Templates
+**Languages:**
+[Node.js](https://github.com/orgs/nylas-samples/repositories?q=quickstart+node) ·
+[Python](https://github.com/orgs/nylas-samples/repositories?q=quickstart+python) ·
+[Ruby](https://github.com/orgs/nylas-samples/repositories?q=quickstart+ruby) ·
+[Java](https://github.com/orgs/nylas-samples/repositories?q=quickstart+java) ·
+[Kotlin](https://github.com/orgs/nylas-samples/repositories?q=quickstart+kotlin)
 
-**Python SDK**
+A few good entry points:
 
-- [python-email-send](https://github.com/nylas-samples/python-email-send): Send an email with the Nylas Python SDK!
-- [python-email-read](https://github.com/nylas-samples/python-email-read): Read your email with the Nylas Python SDK!
-- [python-email-delete](https://github.com/nylas-samples/python-email-delete): Delete an email with the Nylas Python SDK!
-- [python-email-filter](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samplesemail/python/filter-email/): Filter Emails with the Python Nylas SDK!
-- [Shiny-for-Python-Building-an-Email-Dashboard](https://github.com/nylas-samples/Shiny-for-Python-Building-an-Email-Dashboard): Build an Email Dashboard using Shiny for Python!
-- [EmailThreading_Python](https://github.com/nylas-samples/EmailThreading_Python): Group and visualize your email threads with Python 
-- [Send-an-email-using-DearPyGUI-ChatGPT-and-your-voice](https://github.com/nylas-samples/Send-an-email-using-DearPyGUI-ChatGPT-and-your-voice): Use DearPyGUI, ChatGPT, Voice Recognition and Amazon Polly to send an email using your voice!
-- [Create a Terminal Email Client using Textual and Python](https://github.com/nylas-samples/textual_terminal_email_client): Use Textual and Python to create a Terminal Email Client. Compose, Reply and Delete emails from your terminal window.
-- [localize_emails_python_chatgpt](https://github.com/nylas-samples/localize_emails_python_chatgpt): Localize Your Emails With ChatGPT and Python!
-- [streamlit_email_dashboard](https://github.com/nylas-samples/streamlit_email_dashboard): Using Python and Streamlit with the help of Nylas, create an email dashboard to get insights on your inbox!
+- [**quickstart-email-python**](https://github.com/nylas-samples/quickstart-email-python) — send and read email with the Python SDK.
+- [**quickstart-calendar-node**](https://github.com/nylas-samples/quickstart-calendar-node) — manage events with the Node.js SDK.
+- [**quickstart-v3-scheduler-nextjs**](https://github.com/nylas-samples/quickstart-v3-scheduler-nextjs) — embed the Nylas Scheduler in a Next.js app.
+- [**quickstart-nylas-connect-react-spa**](https://github.com/nylas-samples/quickstart-nylas-connect-react-spa) — hosted auth in a React SPA with `@nylas/connect`.
 
-**Ruby SDK**
+Or [browse all quickstarts](https://github.com/orgs/nylas-samples/repositories?q=quickstart).
 
-- [ruby-email-send](https://github.com/nylas-samples/ruby-email-send): Send an email with the Nylas Ruby SDK!
-- [ruby-email-read](https://github.com/nylas-samples/ruby-email-read): Read your email with the Nylas Ruby SDK!
-- [ruby-email-delete](https://github.com/nylas-samples/ruby-email-delete): Delete an email with the Nylas Ruby SDK!
-- [Shoes-Mail-Client](https://github.com/nylas-samples/Shoes-Mail-Client): Create a mail box using the Nylas APIs, JRuby and Shoes 4.
-- [EmailThreading_Ruby](https://github.com/nylas-samples/EmailThreading_Ruby): Group and visualize your email threads with Ruby
-- [Mail_Merge_Ruby](https://github.com/nylas-samples/mail_merge_ruby): Mail Merge Template using Ruby and Sinatra
+## Reference apps & integrations
 
-**Java SDK**
+Standalone projects that go a bit further than a quickstart.
 
-- [java-email-send](https://github.com/nylas-samples/java-email-send): Send an email with the Nylas Java SDK!
-- [java-email-send-form](https://github.com/nylas-samples/java-email-send-form): Send an email from a web form with the Nylas Java SDK!
-- [java-read-inbox](https://github.com/nylas-samples/java-read-email): Read your email with the Nylas Java SDK!
-- [java-email-delete](https://github.com/nylas-samples/java_email_delete): Delete an email with the Nylas Java SDK!
-- [EmailThreading_Java](https://github.com/nylas-samples/EmailThreading_Java): Group and visualize your email threads using Java
+- [**meeting-notes-generator**](https://github.com/nylas-samples/meeting-notes-generator) — generate meeting notes with Nylas Notetaker and AI.
+- [**nylas-api-mcp**](https://github.com/nylas-samples/nylas-api-mcp) — experimental MCP server for the Nylas API.
+- [**TinyMCE-Nylas-Email-API**](https://github.com/nylas-samples/TinyMCE-Nylas-Email-API) — rich-text email composer using TinyMCE and the Email API.
+- [**node-email-responder-ai**](https://github.com/nylas-samples/node-email-responder-ai) — auto-respond to emails with generative AI.
+- [**next-js-nylas-auth-flow**](https://github.com/nylas-samples/next-js-nylas-auth-flow) — full Nylas auth flow in Next.js.
 
-**Other languages**
+## Browse the org
 
-- [Send Emails with Rust and C#](https://github.com/nylas-samples/send_emails_rust_csharp): Send an email with Nylas REST APIs using Rust or C#!
-- [Send and Read Emails with PHP](https://github.com/nylas-samples/php_send_and_read_emails): Read or Send an email with Nylas REST APIs using PHP!
-- [Send and Read Emails with Node-Red](https://github.com/nylas-samples/node_red_send_and_read_emails): Read or Send an email with Nylas REST APIs using Node-Red!
+By product:
+[Email](https://github.com/orgs/nylas-samples/repositories?q=email) ·
+[Calendar](https://github.com/orgs/nylas-samples/repositories?q=calendar) ·
+[Contacts](https://github.com/orgs/nylas-samples/repositories?q=contact) ·
+[Scheduler](https://github.com/orgs/nylas-samples/repositories?q=scheduler) ·
+[Webhooks](https://github.com/orgs/nylas-samples/repositories?q=webhook) ·
+[Auth](https://github.com/orgs/nylas-samples/repositories?q=auth)
 
-## Calendar and Events API samples
+By language:
+[Node.js](https://github.com/orgs/nylas-samples/repositories?q=node) ·
+[Python](https://github.com/orgs/nylas-samples/repositories?q=python) ·
+[Ruby](https://github.com/orgs/nylas-samples/repositories?q=ruby) ·
+[Java](https://github.com/orgs/nylas-samples/repositories?q=java)
 
-**Node.js SDK and JavaScript**
-- [node-two-sided-marketplace](https://github.com/nylas-samples/two-sided-marketplace/tree/main): This API backend is built for serving data to a frontend application (web/mobile) for the purpose of creating virtual calendars to share with individuals to book time slots.
-- [node-manage-calendar-events](https://github.com/nylas-samples/node-manage-calendar-events): Manage calendar events with the Nylas Node.js SDK!
-- [node-send-calendar-event-notifications](https://github.com/nylas-samples/node-send-calendar-event-notifications) Manage calendar events notifications with the Nylas Node.js SDK!
-- [node-read-account](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/account/node/read-account/): Read account details using Nylas Node SDK!
-- [node-create-calendar](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/calendar/node/create-calendar/): Create calendar using Nylas Node SDK!
-- [sync-google-calendar-outlook](https://github.com/nylas-samples/sync-google-calendar-outlook): This sample repo will show you how to easily sync Google and Outlook calendars with Nylas.
-- [node-analyze-your-week-with-sunburst-charts](https://github.com/nylas-samples/node-analyze-your-week-with-sunburst-charts) How to Visualize Calendar Events with Sunburst Charts
+## Try it in Postman
 
-**Python SDK**
-- [python-holiday-generator](https://github.com/nylas-samples/python-holidays-generator): Generate a Markdown file of your Holidays Calendar using the Nylas Python SDK
-- [python-create-calendar](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/calendar/python/create-calendar/): Create a calendar using Python SDK!
-- [python-filter-calendar](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/calendar/python/filter-calendar/): Filter Calendar Event using Nylas Python SDK!
-- [python-recurring-calendar](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/calendar/python/reoccuring_event/): Re-occuring Calendar Event using Nylas Python SDK!
-- [nicegui_planner](https://github.com/nylas-samples/nicegui_planner): NiceGUI Daily Planner for Calendar and Email!
+Three collections in the [public workspace](https://www.postman.com/trynylas/nylas-api), pre-wired and ready to fork.
 
-**Java SDK**
-- [java-read-calendars](https://github.com/nylas-samples/java-read-calendars): Get a list of all your calendars
-- [java-read-calendar-events](https://github.com/nylas-samples/java-read-calendar-events): Get a list of all your events for an specific calendar
-- [java-create-calendar-events](https://github.com/nylas-samples/java-create-calendar-events): Create calendar events for an specific calendar
+| Collection | Run |
+|---|---|
+| **Administration** | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" width="128" height="32">](https://god.gw.postman.com/run-collection/21157315-07346e8d-7c2c-43d4-87f6-2a8b6ebc4b30?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D21157315-07346e8d-7c2c-43d4-87f6-2a8b6ebc4b30%26entityType%3Dcollection%26workspaceId%3De36cf1fc-a749-494d-9c8c-f3c28f18c342) |
+| **Email, Calendar, Contacts & Notetaker** | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" width="128" height="32">](https://god.gw.postman.com/run-collection/21157315-b864762a-ddbb-4e08-bcc5-e87bb51a825a?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D21157315-b864762a-ddbb-4e08-bcc5-e87bb51a825a%26entityType%3Dcollection%26workspaceId%3De36cf1fc-a749-494d-9c8c-f3c28f18c342) |
+| **Scheduler** | [<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" width="128" height="32">](https://god.gw.postman.com/run-collection/21157315-91771656-d8a7-43c9-ad24-8533f43d6f35?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D21157315-91771656-d8a7-43c9-ad24-8533f43d6f35%26entityType%3Dcollection%26workspaceId%3De36cf1fc-a749-494d-9c8c-f3c28f18c342) |
 
-**Other languages**
-- [Read Calendars with C#](https://github.com/nylas-samples/read_calendars_c_sharp): Read calendars using C#
-- [Read Events with C#](https://github.com/nylas-samples/read_events_c_sharp): Read daily events using C#
-- [Create Events with C#](https://github.com/nylas-samples/create_events_c_sharp): Create an event using C#
-- [Create Events with R](https://github.com/nylas-samples/create_events_r): Create an event using R
-- [Create Events with Julia](https://github.com/nylas-samples/create_events_julia): Create an event using Julia
-- [Create Events with Perl](https://github.com/nylas-samples/create_events_perl): Create an event using Perl
+---
 
-## Contact API Samples
+## SDKs
 
-**Node.js SDK**
-- [node-read-contacts](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/contact/node/read-contacts/): Read contacts using Nylas Node SDK and TypeScript
-- [create-contacts-from-emails](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/contact/node/create-contacts-from-emails/): Create contacts from latest emails using Nylas Node SDK and TypeScript
+- [nylas-nodejs](https://github.com/nylas/nylas-nodejs) · `npm i nylas`
+- [nylas-python](https://github.com/nylas/nylas-python) · `pip install nylas`
+- [nylas-ruby](https://github.com/nylas/nylas-ruby) · `gem install nylas`
+- [nylas-java](https://github.com/nylas/nylas-java) · Maven / Gradle
 
-**Python SDK**
-- [python-read-contacts](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/contact/python/read_contacts/): Read contacts using Python Nylas SDK!
-- [python-update-contact](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/contact/python/update_contact/): Update an existing account with Python Nylas SDK!
-- [python-create-contact](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/contact/python/create_contact/): Create a contact using the Nylas Python SDK!
-- [python-delete-account](https://github.com/nylas-samples/nylas-hacktoberfest-2022/tree/main/code-samples/contact/python/delete_contact/): Delete account details using Nylas Python SDK!
-- [python-read-account](https://github.com/nylas-samples/nylas-hacktoberfest-2022//tree/main/code-samples/account/python/read-account/): Read account details using Nylas Python SDK!
-- [nicegui-contacts](https://github.com/nylas-samples/nicegui_contacts): Manage your contacts using NiceGUI!
+Community: [Teamwork/nylas-go](https://github.com/Teamwork/nylas-go),
+[lanlin/nylas-php](https://github.com/lanlin/nylas-php).
 
-**Ruby SDK**
-- [addressbook_decker_ruby](https://github.com/nylas-samples/addressbook_decker_ruby): Build an old-fashioned agenda using Decker (HyperCard) and Ruby 
+## API reference
 
-## Scheduler samples
+- [API](https://developer.nylas.com/docs/reference/api/)
+- [Notifications](https://developer.nylas.com/docs/reference/notifications/)
+- [UI components](https://developer.nylas.com/docs/reference/ui/)
 
-**Node.js SDK**
+## AI agents
 
-- [node-scheduler-create](https://github.com/nylas-samples/node-scheduler-create): Create a scheduler page with the Nylas Node.js SDK!
-- [scheduling-app](https://github.com/nylas-samples/scheduling-app) Scheduling App built with React and Nylas Scheduler!
+[nylas/skills](https://github.com/nylas/skills) drops Nylas into Claude Code,
+Cursor, Codex, and other agents that support the skills format:
 
-## Neural API samples
+```bash
+npx skills add nylas/skills
+/plugin marketplace add nylas/skills   # Claude Code
+```
 
-- [python-sentimentanalysis-r-shiny](https://github.com/nylas-samples/python-sentimentanalysis-r-shiny): Get sentiment analysis on email data
+The CLI installs an MCP server for Claude Desktop, Claude Code, Cursor,
+Windsurf, or VS Code:
 
-## Webhook samples
+```bash
+brew install nylas/nylas-cli/nylas
+nylas mcp install
+```
 
-**Node.js**
-- [node-webhooks-challenge-serverless-function](https://github.com/nylas-samples/node-webhooks-challenge-serverless-function): Create Nylas Webhooks with NodeJS
+## Contributing
 
-## Infrastructure setup
-- [infra-setup](https://github.com/nylas-samples/infra-setup): A collection of scripts to automate Nylas client's required infrastructure
+Pull requests welcome — see [CONTRIBUTING.md](https://github.com/nylas-samples/.github/blob/main/CONTRIBUTING.md). New to open source? The [starter template](https://github.com/nylas-samples/nylas-code-samples-starter) is a good place to begin.
+
+## Connect
+
+[Forum](https://forums.nylas.com) ·
+[LinkedIn](https://www.linkedin.com/company/nylas/) ·
+[X](https://twitter.com/nylas) ·
+[YouTube](https://www.youtube.com/c/nylas)
+
+---
+
+_If you're interested in building Nylas, [come join us](https://www.nylas.com/company/jobs/)._
