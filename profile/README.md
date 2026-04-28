@@ -28,8 +28,19 @@ Then pick a quickstart for your stack — see below.
 
 Per-product quickstart guides, available across every official SDK.
 
-- **Products:** Email · Calendar · Contacts · Scheduler · Webhooks
-- **Languages:** Node.js · Python · Ruby · Java · Kotlin (plus React & HTML for Scheduler)
+**Products:**
+[Email](https://github.com/orgs/nylas-samples/repositories?q=quickstart+email) ·
+[Calendar](https://github.com/orgs/nylas-samples/repositories?q=quickstart+calendar) ·
+[Contacts](https://github.com/orgs/nylas-samples/repositories?q=quickstart+contacts) ·
+[Scheduler](https://github.com/orgs/nylas-samples/repositories?q=quickstart+scheduler) ·
+[Webhooks](https://github.com/orgs/nylas-samples/repositories?q=quickstart+webhook)
+
+**Languages:**
+[Node.js](https://github.com/orgs/nylas-samples/repositories?q=quickstart+node) ·
+[Python](https://github.com/orgs/nylas-samples/repositories?q=quickstart+python) ·
+[Ruby](https://github.com/orgs/nylas-samples/repositories?q=quickstart+ruby) ·
+[Java](https://github.com/orgs/nylas-samples/repositories?q=quickstart+java) ·
+[Kotlin](https://github.com/orgs/nylas-samples/repositories?q=quickstart+kotlin)
 
 A few good entry points:
 
