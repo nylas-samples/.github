@@ -22,25 +22,33 @@ brew install nylas/nylas-cli/nylas
 nylas init
 ```
 
-Then grab a sample and run it:
+Then pick a quickstart for your stack — see below.
 
-```bash
-git clone https://github.com/nylas-samples/nylas-code-samples-starter
-cd nylas-code-samples-starter
-# add NYLAS_API_KEY to .env, then follow the sample's README
-```
+## Quickstarts — pick your stack
 
-## Featured samples
+Per-product quickstart guides, available across every official SDK.
 
-Hand-picked starting points if you're not sure where to begin.
+- **Products:** Email · Calendar · Contacts · Scheduler · Webhooks
+- **Languages:** Node.js · Python · Ruby · Java · Kotlin (plus React & HTML for Scheduler)
 
-- [**nylas-code-samples-starter**](https://github.com/nylas-samples/nylas-code-samples-starter) — the template every sample is built from.
-- [**node-starter-repo**](https://github.com/nylas-samples/node-starter-repo) — start building with the Nylas Node.js SDK.
-- [**node-manage-calendar-events**](https://github.com/nylas-samples/node-manage-calendar-events) — create, update, and delete calendar events.
-- [**python-holidays-generator**](https://github.com/nylas-samples/python-holidays-generator) — Markdown holiday calendar in Python.
-- [**streamlit_email_dashboard**](https://github.com/nylas-samples/streamlit_email_dashboard) — inbox dashboard built with Streamlit.
-- [**scheduling-app**](https://github.com/nylas-samples/scheduling-app) — React frontend for the Nylas Scheduler.
-- [**node-webhooks-challenge-serverless-function**](https://github.com/nylas-samples/node-webhooks-challenge-serverless-function) — Nylas webhooks on a serverless function.
+A few good entry points:
+
+- [**quickstart-email-python**](https://github.com/nylas-samples/quickstart-email-python) — send and read email with the Python SDK.
+- [**quickstart-calendar-node**](https://github.com/nylas-samples/quickstart-calendar-node) — manage events with the Node.js SDK.
+- [**quickstart-v3-scheduler-nextjs**](https://github.com/nylas-samples/quickstart-v3-scheduler-nextjs) — embed the Nylas Scheduler in a Next.js app.
+- [**quickstart-nylas-connect-react-spa**](https://github.com/nylas-samples/quickstart-nylas-connect-react-spa) — hosted auth in a React SPA with `@nylas/connect`.
+
+Or [browse all quickstarts](https://github.com/orgs/nylas-samples/repositories?q=quickstart).
+
+## Reference apps & integrations
+
+Standalone projects that go a bit further than a quickstart.
+
+- [**meeting-notes-generator**](https://github.com/nylas-samples/meeting-notes-generator) — generate meeting notes with Nylas Notetaker and AI.
+- [**nylas-api-mcp**](https://github.com/nylas-samples/nylas-api-mcp) — experimental MCP server for the Nylas API.
+- [**TinyMCE-Nylas-Email-API**](https://github.com/nylas-samples/TinyMCE-Nylas-Email-API) — rich-text email composer using TinyMCE and the Email API.
+- [**node-email-responder-ai**](https://github.com/nylas-samples/node-email-responder-ai) — auto-respond to emails with generative AI.
+- [**next-js-nylas-auth-flow**](https://github.com/nylas-samples/next-js-nylas-auth-flow) — full Nylas auth flow in Next.js.
 
 ## Browse the org
 
