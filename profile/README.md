@@ -22,7 +22,7 @@ brew install nylas/nylas-cli/nylas
 nylas init
 ```
 
-Then pick a quickstart for your stack — see below.
+More options in the [CLI getting-started guide](https://cli.nylas.com/guides/getting-started). Then pick a quickstart for your stack — see below.
 
 ## Quickstarts — pick your stack
 
@@ -122,6 +122,8 @@ Windsurf, or VS Code:
 brew install nylas/nylas-cli/nylas
 nylas mcp install
 ```
+
+Walkthrough: [give AI agents email access via MCP](https://cli.nylas.com/guides/give-ai-agents-email-access-via-mcp).
 
 ## Contributing
 
