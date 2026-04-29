@@ -1,6 +1,6 @@
 <img src="./logo.png" width="96" alt="Nylas"/>
 
-# Nylas code samples
+# Nylas Code Samples
 
 **Open-source examples for the Nylas APIs.**
 Snippets and reference apps across every official SDK — Email, Calendar,
